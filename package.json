@@ -1,0 +1,31 @@
+{
+    "name": "powshen-cli",
+    "version": "1.0.0",
+    "description": "Powshen was created for the sole purpose of making development easier for clockwork developers. Nothing fancy.",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "node bin/powshen.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kopahead/powshen.git"
+    },
+    "keywords": [
+        "scaffold",
+        "cli-tool"
+    ],
+    "author": "Elvis Magagula <kopahead@gmail.com> (https://github.com/ElvisMagagula)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kopahead/powshen-cli/issues"
+    },
+    "homepage": "https://github.com/kopahead/powshen-cli#readme",
+    "dependencies": {
+        "nopt": "^3.0.1",
+        "colors": "^1.0.3",
+        "async": "^2.3.0",
+         "inquirer": "^0.8.3",
+        "is-root": "^1.0.0",
+        "which": "^1.0.8"
+    }
+}
